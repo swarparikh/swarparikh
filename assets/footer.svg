@@ -1,0 +1,15 @@
+<svg width="1200" height="90" viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#1A0A0A"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A0000"/>
+      <stop offset="100%" stop-color="#FF3B3B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="90" fill="url(#bgGrad2)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#barGrad)"/>
+  <text x="600" y="52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#C9C9C9">Clean data first. Clear decisions after.</text>
+</svg>

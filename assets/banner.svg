@@ -1,1 +1,57 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#1A0A0A"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3B3B"/>
+      <stop offset="100%" stop-color="#8A0000"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3B3B" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8A0000" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
 
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+  <!-- decorative node network, top right -->
+  <g stroke="#FF3B3B" stroke-opacity="0.25" stroke-width="1">
+    <line x1="820" y1="60" x2="900" y2="40"/>
+    <line x1="900" y1="40" x2="970" y2="80"/>
+    <line x1="900" y1="40" x2="960" y2="20"/>
+    <line x1="970" y1="80" x2="1040" y2="55"/>
+    <line x1="1040" y1="55" x2="1100" y2="90"/>
+    <line x1="960" y1="20" x2="1030" y2="15"/>
+    <line x1="1030" y1="15" x2="1100" y2="40"/>
+  </g>
+  <g fill="#FF3B3B" fill-opacity="0.75">
+    <circle cx="820" cy="60" r="3"/>
+    <circle cx="900" cy="40" r="3"/>
+    <circle cx="970" cy="80" r="3"/>
+    <circle cx="960" cy="20" r="3"/>
+    <circle cx="1040" cy="55" r="3"/>
+    <circle cx="1100" cy="90" r="3"/>
+    <circle cx="1030" cy="15" r="3"/>
+    <circle cx="1100" cy="40" r="3"/>
+  </g>
+
+  <!-- ascending analytics line motif, bottom third -->
+  <polyline points="0,260 120,245 240,250 360,220 480,228 600,195 720,205 840,165 960,175 1080,140 1200,150"
+            fill="none" stroke="url(#lineGrad)" stroke-width="2.5"/>
+  <g fill="#FF3B3B" fill-opacity="0.9">
+    <circle cx="360" cy="220" r="3.5"/>
+    <circle cx="600" cy="195" r="3.5"/>
+    <circle cx="840" cy="165" r="3.5"/>
+    <circle cx="1080" cy="140" r="3.5"/>
+  </g>
+
+  <!-- name + subtitle -->
+  <text x="60" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="url(#textGrad)">Swar Parikh</text>
+  <text x="62" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#C9C9C9">Data Analyst &#183; Business Intelligence &#183; IT Support</text>
+
+  <!-- open-to-work tag -->
+  <rect x="60" y="205" width="248" height="34" rx="17" fill="none" stroke="#FF3B3B" stroke-opacity="0.6" stroke-width="1.2"/>
+  <text x="80" y="227" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#FF9494">Open to work &#8212; Fall 2026</text>
+</svg>
